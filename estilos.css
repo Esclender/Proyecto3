@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 27px;
+}
+
+:root{
+    --main-color: #66f;
+    --secondary-color: rgba(54, 54, 138, 0.825);
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: radial-gradient(circle, #ffcccc, #aacccc);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+        
+}
+
+.nav__container{
+    grid-column: 4 / 5;
+   
+}
+
+.item__container{
+    
+}
+
+.item{
+    list-style: none;
+    color: var(--main-color);
+    padding: 1rem;
+    
+
+}
+
+.item > a{
+    text-decoration: none;
+    color: var(--main-color);
+    margin: .5rem;
+}
+
+.main__container{
+    
+}
+
+.second__container{
+    
+}
+
+.footer{
+    
+}
