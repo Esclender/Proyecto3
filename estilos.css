@@ -24,14 +24,14 @@ body{
         
 }
 
-.nav__container{
-    grid-column: 4 / 5;
-   
-}
 
 .item__container{
-    
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 10rem;
 }
+
 
 .item{
     list-style: none;
@@ -41,20 +41,14 @@ body{
 
 }
 
+.Logo-nav img{
+   position: absolute;
+   height: 10rem;
+}
+
 .item > a{
     text-decoration: none;
     color: var(--main-color);
     margin: .5rem;
 }
 
-.main__container{
-    
-}
-
-.second__container{
-    
-}
-
-.footer{
-    
-}
